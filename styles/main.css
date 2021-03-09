@@ -155,7 +155,6 @@ main {
   font-size: 14px;
 }
 
-
 @media screen and (max-width: 280px) {
   .filter-tag-label {
     font-size: 10px;
@@ -167,7 +166,6 @@ main {
     font-size: 7px;
   }
 }
-
 
 /* Informations */
 #info-available-locations {
@@ -326,6 +324,16 @@ main {
 }
 .display-more-locations > a:hover {
   opacity: 0.7;
+}
+
+#locations-popular-heading {
+  display: flex;
+  align-items: center;
+}
+
+#locations-popular-heading > i {
+  margin-left: auto;
+  font-size: 18px;
 }
 
 .card-item-popular-location {
