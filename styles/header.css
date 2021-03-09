@@ -1,0 +1,112 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 0 20px;
+}
+
+#logo,
+#signup-button {
+  margin-top: 15px;
+}
+
+#signup-button {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: #0065fc;
+  transition-duration: 300ms;
+}
+
+#signup-button:hover {
+  background-color: #0065fc;
+  border-radius: 12px;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+}
+
+header nav a {
+  margin-right: 20px;
+  padding-top: 30px;
+  transition-duration: 300ms;
+  text-decoration: none;
+  color: #000000;
+}
+
+header nav a:hover {
+  color: #0065fc;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.active-nav-element,
+.active-nav-element:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 28px;
+  color: #0065fc;
+  font-weight: 600;
+  opacity: 1;
+}
+
+#signup-button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 610px) {
+  header nav {
+    order: 2;
+    width: 100%;
+    margin-left: unset;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  header nav a {
+    margin: unset;
+    border-bottom: 2px solid #e2e2e2;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  header nav a:hover {
+    color: #0065fc;
+    font-weight: 600;
+    border-color: #0065fc;
+    opacity: 0.5;
+  }
+
+  .active-nav-element,
+  .active-nav-element:hover {
+    padding-top: 10px;
+    border-top: unset;
+    color: #0065fc;
+    font-weight: 600;
+    border-color: #0065fc;
+    opacity: 1;
+  }
+
+  header {
+    padding: unset;
+  }
+
+  #logo,
+  #signup-button {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  #signup-button {
+    margin-left: auto;
+  }
+}
