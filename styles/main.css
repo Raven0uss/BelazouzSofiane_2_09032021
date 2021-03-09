@@ -340,7 +340,7 @@ main {
   flex: 1 0 100%;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 130px;
+  height: 150px;
 }
 
 .card-item-popular-location > a {
@@ -358,7 +358,7 @@ main {
 
 .image-card-item-popular-location {
   width: 100px;
-  height: 130px;
+  height: 150px;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   object-fit: cover;
@@ -480,7 +480,11 @@ main {
 
   .image-card-item-location {
     width: 100%;
-    height: 130px;
+    height: 150px;
+  }
+
+  .card-item-popular-location-rate {
+    font-size: 8px;
   }
 }
 
