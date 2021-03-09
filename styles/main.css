@@ -468,14 +468,14 @@ main {
 
 @media screen and (max-width: 930px) {
   .card-item-location {
-    flex: 1 0 100%;
+    flex: 1 0 80%;
     flex-direction: row;
     flex-wrap: nowrap;
     min-height: 200px;
   }
 
   .card-item-popular-location {
-    width: 100%;
+    width: calc(100% - 16px);
   }
 
   .image-card-item-location {
@@ -522,6 +522,10 @@ main {
 
   #locations-paper {
     background-color: #fff;
+  }
+
+  .card-item-popular-location {
+    width: calc(100% - 16px);
   }
 
   #activities {
