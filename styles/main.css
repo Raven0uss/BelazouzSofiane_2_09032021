@@ -73,7 +73,7 @@ main {
 
 @media screen and (max-width: 450px) {
   #search-button {
-    width: 42px;
+    width: 52px;
     border-radius: 15px;
     margin-left: -10px;
   }
@@ -492,6 +492,10 @@ main {
   main {
     margin: unset;
     padding: unset;
+  }
+
+  #search-container {
+    display: flex;
   }
 
   #main-heading {
