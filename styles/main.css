@@ -68,7 +68,7 @@ main {
 
 #search-button-icon {
   position: absolute;
-  visibility: hidden;
+  display: none;
 }
 
 @media screen and (max-width: 450px) {
@@ -86,12 +86,12 @@ main {
   }
 
   #search-button-text {
-    visibility: hidden;
+    display: none;
     position: absolute;
   }
 
   #search-button-icon {
-    visibility: visible;
+    display: block;
     position: relative;
   }
 }
